@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM phusion/baseimage
 LABEL   maintainer="Aviator" \
         discord="Aviator#1024"
 
