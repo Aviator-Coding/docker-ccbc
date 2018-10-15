@@ -29,7 +29,7 @@ RUN add-apt-repository ppa:bitcoin/bitcoin && \
 
 WORKDIR /ccbc
 
-ENV CCBC_VERSION v1.0.0.4
+ENV CCBC_VERSION v1.0.0.5
 
 RUN git clone -b master https://github.com/CryptoCashBack-Hub/CCBC.git . && \
     git checkout $CCBC_VERSION && \
